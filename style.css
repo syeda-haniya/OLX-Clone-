@@ -1,0 +1,395 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.img1{
+   margin-top: 10px;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.a1:hover{
+    color: rgb(3, 59, 3);
+}
+
+.nav1-items{
+    display: inline-block;
+    padding: 10px;
+}
+
+.select-items{
+    padding: 10px;
+    left: 70px;
+    top: 40px;
+    position: relative;
+    padding-left: 30px;
+    height: 6vh;
+    width: 350px;
+    font-size: 18px;
+    color: grey;
+}
+
+.fas{
+   position: absolute;
+   left: 80px;
+   top: 134px;
+}
+
+.nav2{
+    display: flex;
+}
+
+.searchbar{
+    padding: 10px;
+    top: 40px;
+    left: 100px;
+    width: 400px;
+    position: relative;
+    height: 6vh;
+    font-size: 20px;
+}
+
+.fa{
+    top: 132px;
+    left: 800px;
+    right: 1000px;
+    position: absolute;  
+}
+ 
+.icons{
+    display: flex;
+}
+.img2{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 40px;
+    color: rgb(3, 59, 3);
+}
+
+.img3{
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 40px;
+    color: rgb(3, 59, 3);
+}
+
+.img4{
+    width: 50px;
+    margin-top: 41px;
+    margin-left: 10px;
+}
+
+.sell button{
+    width: 100px;
+    height: 6vh;
+    margin-top: 38px;
+    margin-left: 25px;
+    color: black;
+    background-color: transparent;
+    border: 5px solid;
+    border-radius: 30px;
+    border-color: aqua blue yellow green;
+    font-weight: bold;
+}
+
+.categories{
+    display: flex; 
+    align-items: center;
+}
+
+.list1{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+ 
+.items{
+   margin-left: 50px;
+}
+
+.a2{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.a2:hover{
+    color: rgb(3, 59, 3);
+}
+
+.head1{
+    color: #002f34;
+    margin-left: 80px;
+}
+
+.head2{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #002f34;
+    font-size: 25px;
+}
+
+.categories2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.img5{
+   width: 100px;
+}
+
+.nameofproduct{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.header3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img6{
+    width: 310px;
+    height: 18vh;
+}
+
+.price{
+    display: flex;
+    gap: 200px;
+}
+
+.product1{
+    border: 1px solid grey;
+}
+
+.mobilephones{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.area{
+    margin-top: 7px;
+    margin-left: 6px;
+    color: #002f34;
+}
+
+.money{
+    font-weight: bold;
+    color: #002f34;
+    font-size: 15px;
+}
+
+.name{
+    color: #002f34;
+    font-size: 20px;
+}
+
+.img7{
+    margin-left: 150px;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.img8{
+    margin-top: 50px;
+    width: 500px;
+}
+
+.olxmobileapp{
+    display: flex;
+}
+
+.gettheapp{
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.head3{
+    font-size: 10px;
+}
+
+.img9{
+    width: 120px;
+    height: 10vh;
+}
+
+.head4{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #002f34;
+    text-transform: uppercase;
+}
+
+
+.a4{
+    text-decoration: none;
+    display: block;
+    color: grey;
+}
+
+.a4:hover{
+    color: #002f34;
+}
+
+.lastmaindiv{
+    display: flex;
+    gap: 100px;
+    margin-left: 10px;
+}
+
+.fa-brands {
+    color: #002f34;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.img10{
+    width: 50px;
+}
+
+.lastinfobar{
+    justify-content: space-between;
+    background-color: #002f34;
+    color: aliceblue;
+    padding: 10px;
+
+}
+
+.leastpara{
+   margin-left: 800px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .searchbar{
+       width: 250px;
+       height: 4vh;
+       left: 20px;
+       border: 1px solid black;
+    }
+
+    .fa{
+        left: 490px;
+        top: 127px;
+    }
+
+    .select-items{
+        width: 250px;
+        left: 10px;
+        height: 4vh;
+        border: 1px solid black;
+        padding-top: 2px;
+    }
+
+    .fas{
+        position: absolute;
+        left: 20px;
+        top: 130px;
+     }
+
+     .a1{
+        font-size: 20px;
+     }
+
+     .icons{
+        display: none;
+     }
+
+     .categories{
+        display: none;
+     }
+  
+     hr{
+        display: none;
+     }
+
+     .ad-image{
+        display: none;
+     }
+     
+     .a3{
+        margin-left: 10px;
+     }
+
+     .img7{
+        display: none;
+     }
+
+     .img8{
+        width: 300px;
+     }
+
+     .gettheapp{
+        margin-left: 10px;
+     }
+
+    .head3{
+        font-size: 7px;
+    }
+
+    .img9{
+        width: 60px;
+    }
+
+    .lastmaindiv{
+        font-size: 13px;
+        gap: 50px;
+    }
+
+    .head4{
+        font-size: 10px;
+    }
+
+    .mobilephones{
+        width: 100px;
+    }
+
+    .img6{
+        width: 250px;
+        height: 9vh;
+    }
+
+    .name{
+        font-size: 15px;
+    }
+
+    .money{
+        font-size: 16px;
+    }
+
+    .area{
+        font-size: 13px;
+    }
+
+    .price{
+        gap: 140px;
+    }
+
+    .lastinfobar{
+        height: 3vh;
+    }
+
+    .leastpara{
+        margin-left: 180px;
+        font-size: 15px;
+    }
+
+    .img5{
+        width: 100px;
+    }
+}
